@@ -23,7 +23,6 @@ class DoublyLinkedList:
             self.tail.next = new_node
             self.tail = new_node
         
-        
     def remove_from_head(self):
         if self.head is None:
             return None
